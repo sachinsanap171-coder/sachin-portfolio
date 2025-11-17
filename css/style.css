@@ -403,6 +403,16 @@ section {
     font-size: 1.3rem;
     color: var(--secondary-color);
 }
+.certification-header a {
+    text-decoration: none;      /* Remove underline */
+    color: inherit;             /* Keep the h3 color */
+    display: inline-block;      /* Ensures proper click area */
+    cursor: pointer;
+}
+
+
+
+
 
 .issuer, .date, .skill {
     color: var(--text-light);
